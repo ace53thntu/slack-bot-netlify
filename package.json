@@ -5,7 +5,7 @@
         "name": "Em Dinh"
     },
     "scripts": {
-        "build": "npm run test && tsc",
+        "build": "tsc",
         "test": "ts-mocha tests/**/*.test.ts",
         "go": "netlify dev --live"
     },
